@@ -1,0 +1,21 @@
+{
+  "name": "simple_node",
+  "version": "1.0.0",
+  "description": "## Overview",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chimezdev/Udacity-ALX-Project-3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chimezdev/Udacity-ALX-Project-3/issues"
+  },
+  "homepage": "https://github.com/chimezdev/Udacity-ALX-Project-3#readme"
+}
