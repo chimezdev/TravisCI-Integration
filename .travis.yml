@@ -1,8 +1,8 @@
-language: node_js
-node_js:
-  - 13
+language node_js
+node_js
+  -13
 
-  services:
+  services
   - docker
 
 # Pre-testing installs
@@ -11,9 +11,9 @@ install:
 
   # Scripts to be run such as tests
 before_script:
-  - echo "no tests"
+  -echo "no tests"
 
-  script:
+  script
   - docker --version # print the version for logging
   - docker build -t simple-node .
   - docker tag simple-node chimezdev/simple-node:latest
